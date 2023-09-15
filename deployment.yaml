@@ -6,7 +6,7 @@ metadata:
   name: my-nginx
   namespace: test
 spec:
-  replicas: 1 # 원하는 레플리카 수로 설정하세요.
+  replicas: 3 # 원하는 레플리카 수로 설정하세요.
   selector:
     matchLabels:
       app: my-nginx
