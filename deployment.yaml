@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: my-nginx-container
-          image: docker.io/kkycake/my-nginx:latest
+          image: docker.io/kkycake/my-nginx:1.1
           # Docker Hub 사용자 이름, 이미지 이름 및 원하는 태그를 여기에 입력하세요.
           ports:
             - containerPort: 80 # 컨테이너가 리스닝하는 포트를 설정하세요.
