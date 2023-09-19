@@ -9,7 +9,7 @@ spec:
   replicas: 8 # 원하는 레플리카 수로 설정하세요.
   selector:
     matchLabels:
-      app: my-nginx
+      app: my-nginx2
   template:
     metadata:
       labels:
